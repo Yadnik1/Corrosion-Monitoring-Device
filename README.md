@@ -1,6 +1,16 @@
 # Corrosion-Monitoring-Device
 A compact device designed to assess the level of corrosion in steel reinforcing bars within concrete constructions utilizing advanced Pulsed-Eddy Current technology.
 
+### Corrosion-Monitoring-Device Circuitry 
+![Corrosion-Monitoring-Device Circuitry ](images/image1.png)
+
+### Corrosion-Monitoring-Device 
+![Corrosion-Monitoring-Device ](images/image2.png)
+
+
+
+![Corrosion-Monitoring-Device ](images/image3.png)
+
 Primarily, my work revolved around the algorithm development and validation of the device extensively using MATLAB and on providing wireless iterfacing of the device to a mobile device using Wi-Fi by developing a Flutter Application
 
 
@@ -16,4 +26,10 @@ The script and compiled results in the results.ppt can be found in this folder.
 The main goal of the application is to retrieve the data from the corrosion monitoring device over Wi-Fi. The device creates a local server over the ESP-01 module. Data is constantly updated on the server which the app fetches in real-time.
 The mobile application must visualize the data and post process the data to display certain parameters in real-time.
 
-The Flutter application code can be found here: 
+### Flutter Application Working Block diagram
+![Blockdiagram.png](images/Blockdiagram.png)
+
+
+The Flutter application code can be found here
+
+
