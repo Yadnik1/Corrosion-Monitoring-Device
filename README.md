@@ -24,12 +24,15 @@ The script and compiled results in the results.ppt can be found in this folder.
 ## Flutter Mobile Application 
 
 The main goal of the application is to retrieve the data from the corrosion monitoring device over Wi-Fi. The device creates a local server over the ESP-01 module. Data is constantly updated on the server which the app fetches in real-time.
-The mobile application must visualize the data and post process the data to display certain parameters in real-time.
+The mobile application visualizes the data and post procesess the data to display certain parameters in real-time.
 
 ### Flutter Application Working Block diagram
 ![Blockdiagram.png](Blockdiagram.png)
 
+### Flutter Application
+![Flutter Application](Images/image4.png)
 
+Note: This is just demo data used for representation, since real data cannot be shown here.
 The Flutter application code can be found here
 
 
